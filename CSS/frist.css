@@ -53,7 +53,7 @@ body {
 .logo img {
   width: 100px;
   height: auto;
-  
+
 }
 
 .logo p {
@@ -80,10 +80,10 @@ body {
   border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
-  display: flex;              /* ใช้ flex เพื่อจัดไอคอน + ตัวอักษร */
+  display: flex;              
   align-items: center;
   justify-content: center;
-  gap: 10px;                  /* ระยะห่างระหว่างไอคอนกับข้อความ */
+  gap: 10px;                  
   transition: 0.3s;
 }
 
@@ -119,9 +119,9 @@ label {
 }
 
 .input-box .icon {
-  width: 18px;       /* ขนาด icon */
+  width: 18px;       
   height: 18px;
-  margin-right: 8px; /* ระยะห่างระหว่าง icon กับ input */
+  margin-right: 8px; 
 }
 
 .input-box input {

@@ -31,8 +31,8 @@ body {
 }
 
 .topbar .menu a:hover {
-  background-color: white; /* สีพื้นหลังเมื่อชี้ */
-  color: #707070; /* สีตัวอักษรเมื่อชี้ */
+  background-color: white; 
+  color: #707070; 
 }
 
 .search input {
@@ -59,8 +59,8 @@ body {
 }
 
 .sidebar a:hover {
-  background-color: white; /* เปลี่ยนสีพื้นหลัง */
-  color: #707070; /* สีตัวอักษร */
+  background-color: white; 
+  color: #707070; 
 }
 
 .sidebar a {
@@ -79,8 +79,8 @@ body {
 }
 
 .sidebar a.logout:hover {
-  color: #fdfdfd; /* เปลี่ยนสีตัวอักษรเมื่อชี้ */
-  text-decoration: none; /* อาจลบขีดเส้นใต้ตอน hover */
+  color: #fdfdfd; 
+  text-decoration: none; 
 }
 
 /* Content */
@@ -91,9 +91,9 @@ body {
 }
 
 .content .main-img {
-  width: 100%;       /* ให้เต็มความกว้างของ container */
-  height: 100%;      /* ให้เต็มความสูงของ container */
-  object-fit: cover; /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
   border-radius: 10px;
   border: 5px solid #a277c6;
 }
