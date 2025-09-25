@@ -1,0 +1,128 @@
+body {
+  font-family: 'Prompt', sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* Header */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #a277c6;
+  padding: 10px 20px;
+  border-radius: 0 0 15px 15px;
+}
+
+.topbar .logo {
+  height: 90px;
+  width: auto;
+
+}
+
+.topbar .menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.topbar .menu a:hover {
+  background-color: white; /* สีพื้นหลังเมื่อชี้ */
+  color: #707070; /* สีตัวอักษรเมื่อชี้ */
+}
+
+.search input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #c9a7e0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 0 20px 20px 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: white; /* เปลี่ยนสีพื้นหลัง */
+  color: #707070; /* สีตัวอักษร */
+}
+
+.sidebar a {
+  background: #a277c6;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.sidebar a.logout {
+  color: #ffffff;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.sidebar a.logout:hover {
+  color: #fdfdfd; /* เปลี่ยนสีตัวอักษรเมื่อชี้ */
+  text-decoration: none; /* อาจลบขีดเส้นใต้ตอน hover */
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.content .main-img {
+  width: 100%;       /* ให้เต็มความกว้างของ container */
+  height: 100%;      /* ให้เต็มความสูงของ container */
+  object-fit: cover; /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  border-radius: 10px;
+  border: 5px solid #a277c6;
+}
+
+.footer {
+  margin-top: 15px;
+  background: #a277c6;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Floating buttons */
+.floating-buttons {
+  top: 40%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.floating-buttons button {
+  background: #bfbfbf;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.floating-buttons button:hover {
+  background: #ffffff;
+}
